@@ -26,7 +26,6 @@ deploy:
           npm i html-pdf
           node node_modules/html-pdf output/index.html output/cv.pdf
     # A wercker step to deploy to Github Pages.
-    - lukevivier/gh-pages@0.2.1:
+    - gh-pages:
         token: $GIT_TOKEN
-        domain: asamo7.github.io/hugo-cv
         basedir: output
