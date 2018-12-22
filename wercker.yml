@@ -16,8 +16,6 @@ build:
         version: "0.50"
         theme: "winning"
         flags: "--destination output"
-deploy:
-  steps:
     - install-packages:
         packages: git ssh-client
     - script:
@@ -28,3 +26,8 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         basedir: output
+# deploy:
+#   steps:
+#     - script:
+#         code: |
+#           echo "hello"
