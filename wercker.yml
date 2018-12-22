@@ -15,7 +15,7 @@ build:
 # numbers, you will need to put quotes around the version number.
         version: "0.50"
         theme: "winning"
-        flags: "--destination output"
+#        flags: "--destination output"
 deploy:
   steps:
     - install-packages:
@@ -28,4 +28,4 @@ deploy:
     # A wercker step to deploy to Github Pages.
     - gh-pages:
         token: $GIT_TOKEN
-        basedir: output
+#        basedir: output
