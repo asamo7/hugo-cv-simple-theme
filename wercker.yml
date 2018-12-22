@@ -20,13 +20,16 @@ build:
         packages: git ssh-client
     - script:
         name: pdf-generation
-        code: |
         # https://github.com/Medium/phantomjs/issues/659
-          sudo apt-get -qq update && sudo apt-get -qq -y install bzip2
-        # sudo npm install ws@3.3.2 --save-dev --save-exact
         # https://github.com/Alex-Rose/fb-messenger-cli/issues/94#issuecomment-333047050
-          sudo npm install html-pdf -g --unsafe-perm
         # https://github.com/marcbachmann/node-html-pdf/issues/35
+        code: |
+
+          sudo apt-get -qq update && sudo apt-get -qq -y install bzip2
+
+
+          sudo npm install html-pdf -g --unsafe-perm
+
           sudo apt-get -y install libfontconfig
           html-pdf output/index.html output/cv.pdf
     - lukevivier/gh-pages@0.2.1:
