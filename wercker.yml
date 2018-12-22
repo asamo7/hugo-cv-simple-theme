@@ -21,8 +21,8 @@ build:
     - script:
         name: pdf-generation
         code: |
-          apt-get -qq update && apt-get -qq -y install bzip2
-          npm install html-pdf -g
+          sudo apt-get -qq update && sudo apt-get -qq -y install bzip2
+          sudo npm install html-pdf -g
           html-pdf output/index.html output/cv.pdf
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
