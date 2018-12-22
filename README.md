@@ -10,6 +10,6 @@ See https://www.npmjs.com/package/html-pdf#installation
 
 ```
 
-$ ml-pdf output/index.html output/cv.pdf
+$ html-pdf output/index.html output/cv.pdf
 
 ```
