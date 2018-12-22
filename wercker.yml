@@ -16,9 +16,9 @@ build:
         version: "0.50"
         theme: "winning"
 #        flags: "--destination output"
-     script:
-      code: |
-        echo "hello"
+    - script:
+        code: |
+          echo "hello"
 deploy:
   steps:
       - script:
