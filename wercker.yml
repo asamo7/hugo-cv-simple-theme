@@ -21,7 +21,7 @@ build:
     - script:
         name: pdf-generation
         code: |
-          npm install -g html-pdf
+          sudo npm install html-pdf@2.1.0 -g
           html-pdf output/index.html output/cv.pdf
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
