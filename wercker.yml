@@ -23,7 +23,7 @@ build:
         code: |
           npm i html-pdf
           node node_modules/html-pdf output/index.html output/cv.pdf
-    - gh-pages:
+    - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         basedir: output
 deploy:
