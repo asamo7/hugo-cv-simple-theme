@@ -21,9 +21,9 @@ build:
           echo "hello"
 deploy:
   steps:
-      - script:
-          code: |
-            echo "hello"
+    - script:
+        code: |
+          echo "hello"
       #       npm i html-pdf
     #- install-packages:
     #    packages: git ssh-client
