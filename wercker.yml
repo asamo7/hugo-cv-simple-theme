@@ -15,24 +15,19 @@ build:
 # numbers, you will need to put quotes around the version number.
         version: "0.50"
         theme: "winning"
-#        flags: "--destination output"
+        flags: "--destination output"
+    - install-packages:
+        packages: git ssh-client
     - script:
+        name: PDF Generation
         code: |
-          echo "hello"
+          npm i html-pdf
+          node node_modules/html-pdf output/index.html output/cv.pdf
+    - gh-pages:
+        token: $GIT_TOKEN
+        basedir: output
 deploy:
   steps:
     - script:
         code: |
           echo "hello"
-      #       npm i html-pdf
-    #- install-packages:
-    #    packages: git ssh-client
-    # - script:
-    #     name: PDF Generation
-    #     code: |
-    #       npm i html-pdf
-    #       node node_modules/html-pdf output/index.html output/cv.pdf
-    # A wercker step to deploy to Github Pages.
-    #- gh-pages:
-    #    token: $GIT_TOKEN
-#        basedir: output
