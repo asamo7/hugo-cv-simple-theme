@@ -20,15 +20,11 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    # indexem primer i generem l'index.json que recuperarem a la propera indexació per a comparar els canvis.
-    #- script:
-    #    name: Algolia Indexing
-    #    code: |
-    #      cd _tasks/algolia/
-    #      npm install markdown2json
-    #      npm install algoliasearch
-    #      npm install request
-    #      node index-algolia.js
+    - script:
+        name: PDF Generation
+        code: |
+          npm i html-pdf
+          node node_modules/html-pdf output/index.html output/cv.pdf
     # A wercker step to deploy to Github Pages.
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
