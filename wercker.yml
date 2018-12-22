@@ -3,7 +3,7 @@
 # run node. Unless you are working in an environment where only the Node.js image will be deployed and you have space
 # constraints, we highly recommend using the default image of this repository.
 #box: node:8-slim
-box: 8.14.1-alpine
+box: node:8.14.1-alpine
 build:
   steps:
 # This step will download the specified version of Hugo and run this over the source code to generate the static version of
