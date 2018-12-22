@@ -1,16 +1,16 @@
 # Definició de la màquina mínima per executar node amb versió LTS
-# This image does not contain the common packages contained in the default tag and only contains the minimal packages needed to 
-# run node. Unless you are working in an environment where only the Node.js image will be deployed and you have space 
+# This image does not contain the common packages contained in the default tag and only contains the minimal packages needed to
+# run node. Unless you are working in an environment where only the Node.js image will be deployed and you have space
 # constraints, we highly recommend using the default image of this repository.
 box: node:8-slim
 build:
   steps:
-# This step will download the specified version of Hugo and run this over the source code to generate the static version of 
+# This step will download the specified version of Hugo and run this over the source code to generate the static version of
 # your site. This can then automatically be deployed using other steps.
-# Since version 1.9.0, the step has the latest two versions of Hugo already installed thereby skipping the download part of 
+# Since version 1.9.0, the step has the latest two versions of Hugo already installed thereby skipping the download part of
 # the step.
     - arjen/hugo-build:
-# Specifies the version of Hugo to be used, by default this is "0.30.2". It is recommended to set this, so you don't 
+# Specifies the version of Hugo to be used, by default this is "0.30.2". It is recommended to set this, so you don't
 # accidentally build you site with a version it isn't ready for. Due to Wercker not being able to properly handle 0.x version
 # numbers, you will need to put quotes around the version number.
         version: "0.50"
@@ -18,14 +18,18 @@ build:
 #        flags: "--destination output"
 deploy:
   steps:
-    - install-packages:
-        packages: git ssh-client
+      - script:
+          code: |
+            echo "hello"
+      #       npm i html-pdf
+    #- install-packages:
+    #    packages: git ssh-client
     # - script:
     #     name: PDF Generation
     #     code: |
     #       npm i html-pdf
     #       node node_modules/html-pdf output/index.html output/cv.pdf
     # A wercker step to deploy to Github Pages.
-    - gh-pages:
-        token: $GIT_TOKEN
+    #- gh-pages:
+    #    token: $GIT_TOKEN
 #        basedir: output
