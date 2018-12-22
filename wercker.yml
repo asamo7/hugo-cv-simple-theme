@@ -22,6 +22,7 @@ build:
         name: pdf-generation
         code: |
           sudo apt-get -qq update && sudo apt-get -qq -y install bzip2
+          sudo npm install ws@3.3.2 --save-dev --save-exact
           sudo npm install html-pdf -g --unsafe-perm
           html-pdf output/index.html output/cv.pdf
     - lukevivier/gh-pages@0.2.1:
