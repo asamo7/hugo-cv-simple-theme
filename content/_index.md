@@ -3,7 +3,7 @@ title: CV
 ---
 # Albert Sancho Molina
 
-Arquitecte amb més de 15 anys d'experiència. Arquitecte responsable de l’Oficina Tècnica de Canigó i de Suport Cloud de la Generalitat de Catalunya. Amplia experiència en definició de l’estratègia i l’evolució del framework JEE corporatiu, així com en el nou model DevOps.
+Arquitecte amb més de 15 anys d'experiència havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de les oficines tècniques de Solucions d'Arquitectura i Suport Cloud d'Arquitectura CTTI durant els 6 darrers anys. Versàtil i amb inquietud per assolir nous reptes, amb un alt grau de compromís i responsabilitat.
 
 {{% grid %}}
 
@@ -16,7 +16,8 @@ Arquitecte amb més de 15 anys d'experiència. Arquitecte responsable de l’Ofi
 
 ## Especialitats
 
-Arquitectura JEE, Integració Continua i plataformes Cloud
+- Arquitectura JEE, Integració Continua, plataformes Cloud
+- Lideratge d'equips de desenvolupament i oficines tècniques
 
 ## Certificacions
 
@@ -28,19 +29,21 @@ Arquitectura JEE, Integració Continua i plataformes Cloud
 
 ## Experiència professional
 
-###### *Desembre 2007 - Actualitat*
+###### *Novembre 2012 - Actualitat*
 ### openTrends — IT Architect (2012-Actualitat)
 
-* Responsable tecnològic de l’àrea d’arquitectura de TICxCAT en el manteniment, evolució i nous projectes desenvolupats per al CTTI des de la OT Canigó
+* Responsable tecnològic de l’àrea d’arquitectura de TICxCAT en el manteniment, evolució i nous projectes desenvolupats pel CTTI. Suport a la definició de l'estratègia DevOps.
 * Des de 2016, responsable de la nova OT Suport Cloud destinada al suport tecnològic per al desplegament d‘aplicacions en entorns Cloud.
 
-###### *Desembre 2007 - Actualitat*
+###### *Desembre 2007 - Novembre 2012*
 ### openTrends — Software Engineer (2007-2012)
 
-* Responsable tècnic del projecte de Governança radioelèctrica per al CTTI
-* Responsable tècnic dels projectes de Estadístiques anuals i Butlletí de conjuntura energètica de Catalunya per l’ICAEN.
-* Enginyer responsable de la integració de l'aplicació SAMC (Plataforma d'enviament de trameses) amb el mòdul de signatura de correus ASF per la Diputació de Barcelona.
-* Enginyer responsable del desenvolupament de l'aplicació de codis QR JBoss SEAM per TMB.
+* Responsable tècnic i funcional del projecte de Governança radioelèctrica per al CTTI.
+* Responsable tècnic i funcional dels projectes de Estadístiques anuals i Butlletí de conjuntura energètica de Catalunya per l’ICAEN.
+* Responsable tècnic i funcional del projecte Linneo per el Grupo Godó.
+* Suport tècnic al desenvolupament de projectes amb openFrame per Danone.
+* Evolució de l'aplicació SAMC (Plataforma d'enviament de trameses) amb el mòdul de signatura de correus ASF per la Diputació de Barcelona.
+* Anàlisi i desenvolupament del projecte SGTFNM (Sistema de Gestió de Títols de Família Nombrosa i Monoparental) pel Departament de Benestar Social i Família.
 
 ###### *Novembre 2005 - Desembre 2007*
 ### Atos — Analista programador Java/JEE
@@ -68,17 +71,32 @@ Col·laboració en el desenvolupament d'una eina CASE distribuïda com a project
   * ITIL
 
 ##### Eines de gestió de projectes
-  * Atlassian JIRA
+  * Atlassian JIRA, tant com a usuari com implanació i administració de l'eina
   * Redmine
 
 ##### Cloud
   * Plataformes: IBM Bluemix, Azure, Openshift
   * Docker i orquestradors com Kubernetes i Swarm
+  * PaaS: Cloud Foundry
+  * DBaaS: Compose
+  * SaaS: Algolia
 
-##### Integració continua
-  * Git, SVN, CVS
-  * Jenkins, Go
-  * Java, NodeJS, Golang
+##### Patrons Arquitectura i disseny
+  * SOA
+  * Microserveis
+  * REST API, WS
+  * MVC
+
+##### Seguretat
+  * JWT (Json Web Token)
+  * SAML 2.0
+
+##### ALM
+  * SCM: Git, SVN, CVS
+  * CI: Jenkins, Go
+
+##### Llenguatges de programació
+  * Java, Javascript, NodeJS, Golang
 
 ##### Webs estàtiques
   * Hugo.io (Static site generator)
@@ -86,11 +104,26 @@ Col·laboració en el desenvolupament d'una eina CASE distribuïda com a project
 
 ##### Frameworks Javascript
   * Angular
+  * JQuery
+
+#### Frameworks Java
+  * Spring
+  * JHipster
+  * Struts
+
+##### Servidors web i d'aplicacions
+  * Apache, NGinx
+  * JBoss, Weblogic, Tomcat
+
+##### Bases de dades
+  * MySQL
+  * Oracle
+  * PostgreSQL
+  * SQL Server
 
 #### Interesat en...
   * AWS (Amazon Web Services)
-  * Metodologies àgils
-  * Lideratge d'equips
+  * DevOps: potenciar ús metodologies àgils i seguir ampliant coneixement tecnològic
   * Visió estratègica d'arquitectura i tecnologia
 
 #### Idiomes
@@ -112,8 +145,11 @@ Col·laboració en el desenvolupament d'una eina CASE distribuïda com a project
 {{% printonly %}}
 
 ##   Contacte
+
+Linkedin: https://www.linkedin.com/in/asancho/
 Email: [asamo7@gmail.com](mailto:asamo7@gmail.com)
 Twitter: @asamo7
+
 {{% /printonly %}}
 
 {{% /column %}}
