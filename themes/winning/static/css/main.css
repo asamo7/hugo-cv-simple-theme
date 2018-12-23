@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   margin-top: 0.5em;
   margin-bottom: 0.8em;
 }
@@ -190,7 +190,7 @@ dl dt strong{
   border-radius: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 3px;
-  display: inline-block; 
+  display: inline-block;
 }
 
 dl dd{
@@ -215,7 +215,7 @@ ul li{
   padding-bottom: 1em;
 }
 
-.download, .download .download-icon, .download .download-icon:before, 
+.download, .download .download-icon, .download .download-icon:before,
 .download .download-icon:after{
   transition: 0.7s all cubic-bezier(0.42, 0, 0.57, 1.96);
 }
@@ -227,7 +227,7 @@ ul li{
     transform: scale(1);
     border-color: rgb(252, 76, 122);
   }
-  .download:hover .download-icon:before, 
+  .download:hover .download-icon:before,
   .download:hover .download-icon:after{
     background: rgb(252, 76, 122);
   }
@@ -351,14 +351,14 @@ ul li{
   body{
     font-size: 0.7em;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     margin-top: 0;
   }
-  
+
   .main h2{
     margin: 2em 0 0.4em;
   }
- 
+
   .main h3{
     margin: 0 0 1em;
   }
@@ -414,7 +414,7 @@ ul li{
   .-span-cols-4{
     margin-top: 3em;
   }
-  .footer{ 
+  .footer{
     width: 60%;
   }
 }
