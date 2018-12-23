@@ -3,7 +3,7 @@
 # run node. Unless you are working in an environment where only the Node.js image will be deployed and you have space
 # constraints, we highly recommend using the default image of this repository.
 box: node:8.14.1-slim
-build:
+build-deploy:
   steps:
 # This step will download the specified version of Hugo and run this over the source code to generate the static version of
 # your site. This can then automatically be deployed using other steps.
@@ -24,19 +24,10 @@ build:
         # https://github.com/Alex-Rose/fb-messenger-cli/issues/94#issuecomment-333047050
         # https://github.com/marcbachmann/node-html-pdf/issues/35
         code: |
-
           sudo apt-get -qq update && sudo apt-get -qq -y install bzip2
-
-
           sudo npm install html-pdf -g --unsafe-perm
-
           sudo apt-get -y install libfontconfig
           html-pdf output/index.html output/cv.pdf
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         basedir: output
-# deploy:
-#   steps:
-#     - script:
-#         code: |
-#           echo "hello"

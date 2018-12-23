@@ -45,7 +45,7 @@ Arquitectura JEE, Integració Continua i plataformes Cloud
 ###### *Novembre 2005 - Desembre 2007*
 ### Atos — Analista programador Java/JEE
 
-* Evolució/Manteniment del Framework 2EE Canigó de la Generalitat de Catalunya.
+* Evolució/Manteniment del Framework JEE Canigó de la Generalitat de Catalunya.
 * Anàlisi i desenvolupament dels projectes Gestió Acadèmica per l’Escola de Policia en Canigó i del Nou Model d’OC’s i ITV’s del Departament d'Indústria de la Generalitat.
 
 ###### *Març 2005 - Novembre 2005*
