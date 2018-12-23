@@ -272,7 +272,8 @@ ul li{
 }
 
 .-span-cols-6 ul li:before{
-  content: "0" counter(item) ". ";
+  content:"— ";
+  /*content: "0" counter(item) ". ";*/
   font-weight: 800;
   margin-left: -1.65em;
   margin-right: 2px;
