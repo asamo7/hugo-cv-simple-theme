@@ -11,8 +11,8 @@ Arquitecte amb més de 15 anys d'experiència. Arquitecte responsable de l’Ofi
 
 ## Titulacions
 
-* Enginyeria tècnica en Informàtica de Sistemes a la FIB
-* Segon cicle Enginyeria Informàtica a la UOC (no finalitzat)
+- Enginyeria tècnica en Informàtica de Sistemes a la FIB
+- Segon cicle Enginyeria Informàtica a la UOC (no finalitzat)
 
 ## Especialitats
 
